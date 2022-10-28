@@ -1,0 +1,170 @@
+html {
+    background: rgb(30,30,30);
+}
+
+@font-face {
+    font-family: Game;
+    src: url(../ttf/04B_30__.TTF);
+}
+
+.homebar {
+    height: calc(70vh);
+    min-height: 700px;
+    display:flexbox;
+    align-items: center;
+    justify-content: space-between;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.title{
+    font-family: Game;
+    font-size: 45;
+}
+
+.connexion{
+    display: flex!important;
+    font-size: 25;
+    position: relative;
+    background: rgba(5, 150, 0, 0.85);
+    padding: 1.5rem, 1.5rem;
+    border-radius: 0.25rem;
+    border: solid 2px black;
+    width: 7.5%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+    left: 10px;
+    top: 10px;
+}
+
+
+.connexion:hover{
+    background: rgba(5, 200, 0, 0.85);
+    transition: background-color 0.5s ease;
+}
+
+.wiki{
+    display: flex!important;
+    font-size: 25;
+    position: relative;
+    background: rgba(185, 165, 1, 0.85);
+    padding: 1.5rem, 1.5rem;
+    border-radius: 0.25rem;
+    border: solid 2px black;
+    width: 7.5%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+    left: 175px;
+    top: -22.5px;
+}
+
+.wiki:hover{
+    background: rgba(255, 213, 0, 0.85);
+    transition: background-color 0.5s ease;
+}
+
+.admin{
+    display: flex!important;
+    font-size: 25;
+    position: relative;
+    background: rgba(200, 0, 0, 0.85);
+    padding: 1.5rem, 1.5rem;
+    border-radius: 0.25rem;
+    border: solid 2px black;
+    width: 7.5%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+    left: 92%;
+    top: -55.5px;
+}
+
+.admin:hover{
+    background: rgba(255, 0, 0, 0.85);
+    transition: background-color 0.5s ease;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.crossbar {
+    position: absolute;
+    bottom: 250px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.homelogo {
+    max-width: 300px;
+    width: 500px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.lowerbar {
+    background: #2D323B;
+    height: calc(90vh);
+    right: 0;
+    left: 0;
+    z-index: 1;
+    bottom: 300px;
+    margin-bottom: -925px;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.f35{
+    font-size: 35;
+}
+.f45{
+    font-size: 45;
+}
+.f20{
+    font-size: 20;
+}
+
+
+@font-face {
+    font-family: txt;
+    src: url(../ttf/URWDIN-Medium.ttf);
+}
+
+.txt{
+    position: absolute;
+    left: 50px;
+    bottom: 600px;
+    font-size: 25;
+    font-family: txt;
+}
+.txt2{
+    position: absolute;
+    left: 50px;
+    bottom: 450px;
+    font-size: 25;
+    font-family: txt;
+}
+
+.inscription{
+    font-size: 25;
+    font-family: txt;
+    position: relative;
+    bottom: -550px;
+    background: rgba(25, 25, 25, 0.85);
+    padding: 1rem, 1rem;
+    border-radius: 0.25rem;
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600;
+    border: solid 4px black;
+}
+
+.white{
+    color: whitesmoke;
+}

@@ -1,0 +1,189 @@
+.chat-con {
+	width:150%;
+	height: 750px;
+	max-width:50%;
+	margin:auto;
+	margin-top:-750px;
+	border-radius:10px;
+	padding:7.5px;
+	margin-right: -375px;
+}
+
+.chat-acc {
+	width:100%;
+	max-width:20%;
+	margin:auto;
+	border-radius:10px;
+	padding:7.5px;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+.login-menu {
+	width:50%;
+	margin:auto;
+	border-radius:10px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.container-login {
+    width: 70%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.margin-top{
+	margin-top: 100px;
+}
+.marg-deco{
+	margin-top: 75px;
+}
+.container-acc {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: px;
+    margin-right: auto;
+}
+@media (min-width: 500px) {
+	#chat-ul {
+		height:650px;
+	}
+}
+.chat-d {
+	border-radius:20px;
+	padding:10px;
+	word-wrap: break-word;
+	margin-top:4px;
+}
+.chat-bot {
+	background-color:#cdcdcd;
+	color:black;
+	margin-right:50px;
+}
+.chat-me {
+	background-color: black;
+	color:#cdcdcd;
+	margin-left:50px;
+}
+.chat-ig {
+	padding-top:10px;
+}
+#chat-loader {
+	border-bottom: 40px solid #007bff;
+	border-top: 40px solid #007bff;
+	border-right: 40px solid #cdcdcd;
+	border-left: 40px solid #cdcdcd;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin:auto;
+	animation: cspin 2s linear infinite;
+}
+@keyframes cspin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.mylink {
+	text-decoration: none;
+	color: #232323;
+}
+.mylink-login {
+	text-decoration: none;
+	color: #9b0000;
+}
+.mylink-login:hover {
+	text-decoration: none;
+	color: #d30000;
+}
+
+.deleteacc{
+	color:red;
+	text-decoration: none;
+	transition: background-color 1s ease;
+	display: flex!important;
+    font-size: 25;
+    position: relative;
+    border-radius: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+	
+}
+
+.deleteacc:hover {
+	color:rgb(200, 0, 0);
+	text-decoration: none;
+	transition: background-color 1s ease;
+}
+
+.backmenu{
+	display: flex!important;
+    font-size: 25;
+    position: relative;
+    background: rgba(125, 0, 0, 0.85);
+    padding: 1.5rem, 1.5rem;
+    border-radius: 0.25rem;
+    border: solid 2px black;
+    width: 7.5%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+    left: 10px;
+    top: 10px;
+	
+}
+
+.backmenu:hover{
+    background: rgba(155, 0, 0, 0.85);
+    transition: background-color 0.5s ease;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.go{
+	color: rgb(0, 145, 0);
+	position: relative;
+	align-items: center;
+    justify-content: center;
+	display: flex!important;
+}
+.go:hover{
+	color: rgb(0, 165, 0);
+}
+
+.deco{
+	color: rgb(255, 0, 0);
+	position: relative;
+	align-items: center;
+    justify-content: center;
+	display: flex!important;
+}
+
+.deco:hover{
+	color: rgb(200, 0, 0);
+}
+
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1240px;
+	}
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: 7.5%;
+}
+
+.btn-primary {
+	margin-top: 10px;
+}
